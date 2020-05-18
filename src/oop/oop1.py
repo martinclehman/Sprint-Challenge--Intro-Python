@@ -17,3 +17,38 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle():
+    """
+    Base class
+    """
+
+class GroundVehicle(Vehicle):
+    """
+    Land Vehicle Class
+    """
+
+class FlightVehicle(Vehicle):
+    """
+    Air Vehicle Class
+    """
+
+class Car(GroundVehicle):
+    """
+    Four-wheel Ground Vehicle Class
+    """
+
+class Motorcycle(GroundVehicle):
+    """
+    Two-wheel Ground Vehicle Class
+    """
+
+class Airplane(FlightVehicle):
+    """
+    Atmostpheric Vehicle Class
+    """
+
+class Starship(FlightVehicle):
+    """
+    Space Vehicle Class
+    """
